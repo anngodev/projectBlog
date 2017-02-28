@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
 
-	def about
+	def bloggers
+  		@users = User.all
 	end
 
 end
